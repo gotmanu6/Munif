@@ -1,2 +1,68 @@
 https://docs.google.com/document/d/1ZX0luNx3GfuKAXymwIWcKN19Z62qkofj4eLmsjvVnt4/edit?tab=t.0
 Link Docs
+AULA DIA 26/08/2026
+
+
+A linguagem escolhida foi RUST
+
+
+fonte da gramática consultada: https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/grammar.html
+
+
+
+código que será derivado: 
+fn main() {
+    for i in 1..=10 {
+        println!("{}", i);
+    }
+}
+
+derivação passo a passo;
+
+1. <item> → <function>
+2. <function> → fn <ident> ( <params>? ) <block>
+3. <block> → { <statements>? }
+4. <statements> → <statement>
+5. <statement> → <expression_statement>
+6. <expression_statement> → <expression> ;
+7. <expression> → <for_expression>
+8. <for_expression> → for <pattern> in <expression> <block>
+9. <pattern> → <ident>
+10. <ident> → i
+11. <expression> → <range_expression>
+12. <range_expression> → <range_expr>
+13. <range_expr> → <expression> .. <expression>
+14. <expression> → <literal>
+15. <literal> → 1
+16. <literal> → 11
+17. <expression_statement> → <macro_invocation> ;
+18. <macro_invocation> → <ident> ! ( <token_tree> )
+
+
+simbolos terminais e não terminais:
+Símbolos não terminais: LoopExpression, Pattern, Expression, RangeExpression, BlockExpression, Statements e Statement. Esses símbolos representam categorias sintáticas da gramática e podem ser substituídos por outras produções.
+Símbolos terminais: for, i, in, 1, ..=, 10, {, }, println!, (, ), "{}" e ;. Esses símbolos correspondem aos elementos que aparecem na sequência final do código.
+
+
+
+Regras:
+
+1. <item> → <function>
+2. <function> → fn <ident> ( <params>? ) <block>
+3. <block> → { <statements>? }
+4. <statements> → <statement>
+5. <statement> → <expression_statement>
+6. <expression_statement> → <expression> ;
+7. <expression> → <for_expression>
+8. <for_expression> → for <pattern> in <expression> <block>
+9. <pattern> → <ident>
+10. <ident> → i
+11. <expression> → <range_expression>
+12. <range_expression> → <range_expr>
+13. <range_expr> → <expression> .. <expression>
+14. <expression> → <literal>
+15. <literal> → 1
+16. <literal> → 11
+17. <expression_statement> → <macro_invocation> ;
+18. <macro_invocation> → <ident> ! ( <token_tree> )
+
