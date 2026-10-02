@@ -1,0 +1,16 @@
+Resumo sobre o que eu entendi da aula 7:
+
+Nessa aula eu entendi como as linguagens de programação interpretam e executam o código e que, mesmo quando um código parece simples, alguns detalhes podem mudar completamente o resultado.
+
+Uma das coisas que vimos foi a precedência dos operadores, que basicamente define qual operação vai acontecer primeiro em uma expressão. Também vimos que cada linguagem pode ter algumas regras diferentes, então usar parênteses ajuda bastante a deixar claro o que queremos fazer.
+
+Também aprendi sobre conversão de tipos. A coerção acontece quando a própria linguagem converte um valor automaticamente, enquanto o cast é quando o programador faz essa conversão de propósito. Isso é algo que precisa de atenção, porque algumas conversões podem fazer a gente perder informações ou gerar resultados que não esperávamos.
+
+Outra coisa que achei importante foi o curto-circuito. Quando usamos condições com `&&` ou `||`, dependendo do resultado da primeira condição, a segunda pode nem ser executada. Isso também pode ser usado para evitar alguns erros no código.
+
+A aula também falou bastante sobre estruturas de controle. Temos a sequência, onde o código simplesmente executa uma coisa depois da outra; a seleção, usando `if`, `else` e `switch` para decidir qual caminho seguir; e a repetição, usando `for` e `while` para repetir alguma coisa.
+
+Também vimos algumas pegadinhas que podem causar bugs, como fazer uma divisão usando apenas números inteiros e acabar recebendo um resultado diferente do esperado, esquecer o `break` dentro de um `switch`, usar um `else` no lugar errado ou criar um `while` onde a condição nunca muda e acaba entrando em loop infinito.
+
+No geral, o que eu entendi dessa aula é que não basta só saber escrever o código. A gente também precisa entender como a linguagem vai interpretar aquilo que escrevemos, principalmente a ordem das operações, as conversões de tipos e o fluxo do programa. Pequenos detalhes podem mudar bastante o resultado e até gerar bugs difíceis de encontrar.
+
